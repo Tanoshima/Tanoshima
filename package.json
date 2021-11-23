@@ -1,0 +1,23 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanoshima/tanoshima.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanoshima/tanoshima/issues"
+  },
+  "homepage": "https://github.com/Tanoshima/tanoshima#readme",
+  "devDependencies": {
+    "honkit": "^3.6.23"
+  }
+}
