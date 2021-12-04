@@ -2,7 +2,7 @@
 
 * [Readme](README.md)
 
-* [Introduction](introduction.md)
+* [Introduction](src/introduction.md)
 
 * [Git](src/git.md)
 
