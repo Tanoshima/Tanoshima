@@ -1,6 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
+* [Readme](README.md)
+
+* [Introduction](introduction.md)
 
 * [Git](src/git.md)
 
