@@ -13,6 +13,8 @@
     * [Collection](src/laravel.md#collections)
     * [Migration](src/laravel.md#migration)
 
+* [React Query](src/react_query.md)
+
 * [Other](src/other.md)
 
 * [Honkit](src/honkit.md)
