@@ -61,3 +61,15 @@ DBファサードを使う
    DB::statement('ALTER TABLE `テーブル名` MODIFY COLUMN `カラム名` TIMESTAMP NULL;');
  });
 ```
+
+## Artisanコンソール {#artisan}
+
+### Tinker（REPL）
+
+https://readouble.com/laravel/8.x/ja/artisan.html
+
+> Tinkerを使用すると、Eloquentモデル、ジョブ、イベントなどを含む、コマンドラインでLaravelアプリケーション全体を操作できます。Tinker環境に入るには、tinkerArtisanコマンドを実行します。
+
+```
+php artisan tinker
+```
