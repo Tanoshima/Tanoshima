@@ -73,3 +73,13 @@ https://readouble.com/laravel/8.x/ja/artisan.html
 ```
 php artisan tinker
 ```
+
+#### デモUserの追加
+
+```
+$ php artisan tinker
+
+App\Models\User::factory()->create(['email' => 'demo1@example.com']);
+App\Models\User::factory()->create(['email' => 'demo2@example.com']);
+App\Models\User::factory()->create(['email' => 'demo3@example.com']);
+```
