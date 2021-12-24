@@ -1,5 +1,8 @@
 # その他いろいろ
 
+## 学習サービス
+[kodekloud](https://kodekloud.com/)
+
 ## ツール
 
 [scrapbox](https://scrapbox.io/)
