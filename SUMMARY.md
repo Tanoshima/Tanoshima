@@ -15,6 +15,8 @@
 
 * [React Query](src/react_query.md)
 
+* [Ubuntu](src/ubuntu.md)
+
 * [Other](src/other.md)
 
 * [Honkit](src/honkit.md)
