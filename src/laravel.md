@@ -83,3 +83,51 @@ App\Models\User::factory()->create(['email' => 'demo1@example.com']);
 App\Models\User::factory()->create(['email' => 'demo2@example.com']);
 App\Models\User::factory()->create(['email' => 'demo3@example.com']);
 ```
+
+## Error Handling
+
+### エラーログに追記する
+
+version
+- laravel 8.x
+
+Doc: https://laravel.com/docs/8.x/errors#exception-log-context
+
+app/Exceptions/Handler.php
+```php
+<?php
+
+namespace App\Exceptions;
+
+use Exception;
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Request;
+
+class InvalidOrderException extends Exception
+{
+    // ...
+
+    /**
+     * Get the exception's context information.
+     *
+     * @return array
+     */
+    public function context()
+    {
+        try {
+            return array_filter([
+                'method' = Request::method();
+                'url' => Request::fullUrl(),
+                'input' => Request::except(['password', 'password_confirmation']),
+                'userId' => Auth::id(),
+                'email' => Auth::user() ? Auth::user()->email : null,
+            ]);
+        } catch (Throwable $e) {
+            return [];
+        }
+    }
+}
+```
+
+参考: https://stackoverflow.com/questions/35322037/error-log-on-laravel-5-with-the-url-where-error-occured

@@ -30,7 +30,7 @@ skills: {
         SQL Server
     }
 },
-hobby: To go far without crossing the ocean,
+for fun: To go far without crossing the ocean,
 ```
 
 miscellaneous notes https://tanoshima.github.io/tanoshima/
