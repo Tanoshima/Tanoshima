@@ -3,7 +3,7 @@ Hello !!
 ```
 name: Tanoshima,
 lang: JP,
-stay for more than a week: [
+stay for more than a week: {
     JP: [
         Tokyo,
         Kanagawa,
@@ -17,13 +17,13 @@ stay for more than a week: [
         Okayama,
         Kumamoto
     ]
-],
+},
 Career: [
     Outdoor shop clerk,
     Timber sales operator,
     Programmer
 ],
-skills: [
+skills: {
     recently : [
         php,
         JavaScript
@@ -39,7 +39,7 @@ skills: [
         Oracle Database,
         SQL Server
     ]
-],
+},
 for fun: To go far without crossing the ocean,
 ```
 
