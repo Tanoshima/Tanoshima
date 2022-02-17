@@ -3,18 +3,28 @@ Hello !!
 ```
 name: Tanoshima,
 lang: JP,
-lived: {
-    Aichi,
-    Nagano,
-    Okayama
+stay for more than a week: {
+    JP: [
+        Tokyo,
+        Kanagawa,
+        Nagano,
+        Gifu,
+        Shizuoka,
+        Aichi,
+        Osaka,
+        Hyogo,
+        Tottori,
+        Okayama,
+        Kumamoto
+    ]
 },
-Career: {
+Career: [
     Outdoor shop clerk,
     Timber sales operator,
     Programmer
-},
+],
 skills: {
-    recently : {
+    recently : [
         php,
         JavaScript
         TypeScript,
@@ -22,13 +32,13 @@ skills: {
         Vue,
         React,
         Mysql
-    }
-    I haven't done it for a while: {
+    ],
+    I haven't done it for a while: [
         Java,
         VB.NET,
         Oracle Database,
         SQL Server
-    }
+    ]
 },
 for fun: To go far without crossing the ocean,
 ```
