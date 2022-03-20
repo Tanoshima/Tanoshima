@@ -1,5 +1,12 @@
 # Ubuntu
 
+## install & download
+
+- Install Ubuntu desktop
+  - https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
+- Download Ubuntu Desktop 
+  - https://ubuntu.com/download/desktop
+
 ## VertualBoxからホストのUSBデバイスにアクセス
 vboxusersにユーザーを追加が必要
 
