@@ -9,15 +9,21 @@
 
 ## 2022.03.21 Night Light not working
 
-- 「夜間モード」が機能していない
+1. 「夜間モード」が機能していない
 
-1. 試したこと1
-
-- gnome-control-center を再インストール & 再起動
+2. 試したこと
+  - gnome-control-center を再インストール & 再起動
 ```
 sudo apt-get install --reinstall gnome-control-center
 ```
 
+3. 解決ぜず
+- ubuntu のクリーンインストールした初期状態ですでに発生
+- 環境を記載
+  - OS: Ubuntu 21.10
+  - CPU: intel Core i3 12100
+  - Motherboard: ASRock B660M Pro RS
+  - GPU: not set
 
 ## VertualBoxからホストのUSBデバイスにアクセス
 vboxusersにユーザーを追加が必要
