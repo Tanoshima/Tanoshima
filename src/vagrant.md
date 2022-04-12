@@ -5,6 +5,8 @@
 - Install Ubuntu desktop
   - https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
 
+---
+
 ## vagrant up でエラー その1
 2022.04.10
 
@@ -26,6 +28,8 @@ vagrant plugin install vagrant-disksize
 vagrant plugin install vagrant-env
 vagrant plugin install vagrant-mutagen
 ```
+
+---
 
 ## vagrant up でエラー その2
 2022.04.10
@@ -51,3 +55,5 @@ VBoxManage: error: Context: "COMSETTER(CPUCount)(ValueUnion.u32)" at line 856 of
 
 Please fix this customization and try again.
 ```
+
+- .env が設定されていなかった。.env を追加し、必要な項目を設定。
