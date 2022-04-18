@@ -1,5 +1,19 @@
 # VSCode
 
+## 設定
+
+### auto format
+
+- Ctrl + Shift + P
+- 入力 > setting
+- setting.json に以下を追記
+
+```
+"editor.formatOnSave": true
+```
+
+---
+
 ## 拡張機能
 
 ### PHP
