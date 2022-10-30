@@ -2,6 +2,8 @@
 
 * [Readme](README.md)
 
+* [AboutMe](src/about_me.md)
+
 * [Introduction](src/introduction.md)
 
 * [Git](src/git.md)
